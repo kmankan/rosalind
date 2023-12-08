@@ -21,11 +21,9 @@ def countPointMutations(file_path):
               hamming_distance += 1 
 
       # approach 2
-      '''
       for a,b in zip(s,t):
           if a != b:
               hamming_distance += 1
-      '''
 
   print(hamming_distance)
 
