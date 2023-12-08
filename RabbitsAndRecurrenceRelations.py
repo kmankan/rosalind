@@ -13,7 +13,6 @@ Working out the expression:
 * n=4, r = (n-1) + (n-2)*k = 4 + 1*3 = 7  # original pair reproduces again (1*k)
 * n=5, r = (n-1) + (n-2)*k = 7 + 4*3 = 19 # original pair + next gen reproduce ((1+3)*k
 * n=6, r = (n-1) + (n-2)*k = 19 + 7*3 = 40 # original pair + next + subsequent reproduce (1+3+3)*k
-* n=7, r = (n-1) + (n-2)*k = 40 + 19*3 = 97 # (1+3+3+12)*k
 """
 
 # This is a modification of a normal recursion function with memoization to reduce memory
