@@ -1,3 +1,6 @@
+# Problem 6: Counting Point Mutations
+# https://rosalind.info/problems/hamm/
+
 def countPointMutations(file_path):
   dna = [] # a list to store each strand of dna
   hamming_distance = 0
